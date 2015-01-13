@@ -1,0 +1,331 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long Sectioned Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\setlength{\resumewidth}{7in}
+\usepackage[left=0.75in,
+           top=0.75in,
+           bottom=0.75in,
+            ]{geometry}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{setspace}
+%\usepackage{helvet} % Default font is the helvetica postscript font
+\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\definecolor{light-gray}{gray}{0.8}
+\newcommand{\sectionRule}{{\vspace{-7pt} \color{light-gray} \hrulefill}}
+\newsectionwidth{0pt} % Stops section indenting
+
+\newcommand{\helv}[1]{{\fontfamily{phv}\selectfont #1}}
+
+
+\makeatletter
+\renewcommand{\paragraph}{%
+  \@startsection{paragraph}{4}%
+  {\z@}{0.0ex \@plus 1ex \@minus .2ex}{-1em}%
+  {\normalfont\normalsize\bfseries}%
+}
+\makeatother
+\usepackage{enumitem}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND ADDRESS(ES) SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{multicols}{2}
+	{\Huge {Edwin Lee}}
+	\vfill
+	\columnbreak
+	\begin{flushright}
+		{405-312-7748}\\	
+		{11934 W. Stanford Dr.}\\
+		{Morrison, CO  80465}\\
+		{leeed2001@gmail.com}
+	\end{flushright}
+\end{multicols}
+\vspace{-0.45in}
+\hrulefill
+\vspace{-0.2in}
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+\section{\centerline{\helv{OBJECTIVE}}}
+\sectionRule
+\vspace{-10pt} % Gap between title and text
+
+To leverage my skills as a proficient programmer, mechanical engineer, and numerical analyst in the field of advanced building and system simulation. 
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{\centerline{\helv{EDUCATION}}} 
+\sectionRule
+\vspace{-8pt} % Gap between title and text
+
+{\sl Doctor of Philosophy},
+Mechanical Engineering \\
+Oklahoma State University, Stillwater, OK \dotfill May 2013 \\
+THESIS - A Generalized Pipe Heat Transfer Model for Whole Building Simulation Applications  \\
+GPA 4.00
+
+{\sl Master of Science}, 
+Mechanical Engineering \\
+Oklahoma State University, Stillwater, OK \dotfill May 2008 \\
+THESIS - Development, Implementation, and Verification of a Buried Pipe Model in EnergyPlus \\
+GPA 4.00
+ 
+{\sl Bachelor of Science}, Mechanical Engineering \\ 
+Oklahoma State University, Stillwater, OK \dotfill May 2006 \\
+GPA 3.52
+ 
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{\centerline{\helv{ENGINEERING EXPERIENCE}}} 
+\sectionRule
+\vspace{-8pt} % Gap between title and text
+
+{\sl Research Engineer} \dotfill May 2013 -- Present \\
+National Renewable Energy Laboratory, Golden, CO
+\begin{itemize} \itemsep -2pt
+	\item Contributed to the Technology Performance Exchange (TPEx) via Data Entry Form development, dataset processing, and development of the logic and scripts to convert TPEx datasets into components on the Building Component Library
+	\item Began leading technical development of EnergyPlus, overseeing the technical changes accompanying the translation from FORTRAN to C++, and StarTeam to GitHub
+\end{itemize}
+
+{\sl Graduate Assistant} \dotfill January 2006 -- May 2013 \\
+Oklahoma State University, Stillwater, OK
+\begin{itemize} \itemsep -2pt
+	\item A complete re-write of the EnergyPlus central plant simulation, including solution algorithms, pump model re-work, and updating component model design  
+	\item Developed a generalized horizontal ground heat exchanger model that includes interaction with a basement zone, specifically for use with foundation heat exchangers
+	\item Performed experimental measurement and modeling of transport delay phenomena in piping systems
+	\item Worked closely with the Center for the Built Environment at University of California, Berkeley, providing simulation support for Underfloor Air Distribution System research with EnergyPlus
+\end{itemize}
+
+{\sl Engineering Consultant} \dotfill Fall 2007, Summer 2009 \\
+Oak Ridge National Laboratory, Oak Ridge, TN
+\begin{itemize} \itemsep -2pt
+	\item Utilized EnergyPlus to investigate wall constructions for residential applications
+	\item Constructions included frame walls, solid wood walls, and phase change materials
+\end{itemize}
+
+{\sl Engineering Intern} \dotfill Summer 2005 \\
+Specific Systems, Tulsa, OK
+\begin{itemize} \itemsep -2pt
+	\item Introduced to design and manufacturing of modular HVAC equipment
+	\item Designed and fabricated parts
+	\item Performed various mechanical and structural analysis on designs
+	\item Aided in the construction of a thermal test chamber
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{\centerline{\helv{COMPUTER SKILLS}}}
+\sectionRule
+\vspace{2pt} % Gap between title and text
+
+\begin{itemize} \itemsep -2pt
+	\item Proficient with Windows and Linux Operating System Environments
+	\item Scripting Languages: Batch (Windows), Bash (Linux), Python, Ruby
+	\item Programming Languages: FORTRAN, C, C++, VB.Net, VBA, Modelica, (Including Language Interop)
+	\item GUI Development: VB.Net (Windows), Python (Cross-platform)
+	\item Other software tools:
+	\vspace{-1pt}	
+	\begin{itemize}[topsep=-1pt] \itemsep -2pt
+		\item Office suites, including LibreOffice and MS Office, Gnumeric
+		\item Software version control tools, including Borland Starteam, Git, Subversion, and Bazaar
+		\item Publication tools, including LaTeX and GnuPlot
+		\item Software Tools, including EES, MathCAD, R, Fluent, AutoCAD, LibreCAD and Octave (Matlab)
+		\item Virtual machine utilization
+	\end{itemize}
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	ENERGYPLUS SECTION
+%----------------------------------------------------------------------------------------
+\section{\centerline{\helv{ENERGYPLUS DEVELOPMENT}}}
+\sectionRule
+\vspace{2pt} % Gap between title and text
+
+\vspace{-0.1in}
+\begin{multicols}{2}
+\begin{itemize} \itemsep -2pt
+	\item Generalized buried pipe heat transfer model
+	\item Plant pressure algorithms
+	\item Central plant solver overhaul
+	\item Development of a new testing framework
+	\item Overseeing technical efforts for Fortran to C++ translation and StarTeam to GitHub transition
+\end{itemize}
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+\section{\centerline{\helv{PUBLICATIONS}}}
+\sectionRule
+\vspace{2pt} % Gap between title and text
+
+{
+\leftskip 0.1in
+\parindent -0.1in
+\parskip 0.075in
+\begin{spacing}{1.1}
+
+Raftery, P., E. Lee, T. Webster, T. Hoyt and F. Bauman.  2014.  \textit{Effects of furniture and contents on peak cooling load}.  Energy and Buildings: 85:445-457.
+
+Studer, D., K. Fleming, E. Lee and W. Livingood.  2014.  \textit{Enabling Detailed Energy Analyses via the Technology Performance Exchange}.  Proceedings of the ACEEE Summer Study, Pacific Grove, CA, USA.
+
+Lee, E., D. Fisher and J. Spitler. 2013. \textit{Efficient Horizontal Ground Heat Exchanger Simulation with Zone Heat Balance Integration}. HVAC\&R Research: 19(3):307-323.
+
+Lee, E. and D. Studer. 2013. \textit{TIP 287: Reducing Technology Evaluation Costs Through a Technology Performance Exchange. Deliverable 2.5: Draft Data Entry Forms}. NREL Report No. TP-5500-60219.
+
+Xiong, Z., E. Lee and D. Fisher. 2013. \textit{Development of a Horizontal Slinky Ground Heat Exchanger Model}. ASHRAE Transactions: 119(2).
+
+Chandrasekharan, R., E. Lee, D. Fisher and P. Deokar. 2013. \textit{An Enhanced Simulation Model for Building Envelopes with Phase Change Materials}. ASHRAE Transactions: 119(2).
+
+Cullin, J., Spitler, J. and E. Lee. 2013. \textit{Preliminary Investigation of the Effect of Horizontal Piping on the Performance of a Vertical Ground Heat Exchanger System}. ASHRAE Transactions: 119(2):302-311.
+
+Webster, T.,  T. Hoyt, E. Lee, A. Daly, D. Feng, F. Bauman, S. Schiavon, K. Ho Lee, W. Pasut and D. Fisher. 2012. \textit{Influence of Design and Operating Conditions on Underfloor Air Distribution (UFAD) System Performance}.  Proceedings of Simbuild 2012, August 1-3, Madison, Wisconsin.
+
+Cullin, J.R., L. Xing, E. Lee, J.D. Spitler and D.E. Fisher. 2012. \textit{Feasibility of Foundation Heat Exchangers In Ground Source Heat Pump Systems In the United States}. ASHRAE Transactions: 118(1):1039-1048.
+
+Kośny, J., D. Yarbrough, W. Miller, P. Childs, J. Atchley, S. Shrestha, E. Kossecka, J. B. Smith, T. Fellinger, E. Lee, and M. Bianchi. 2010. \textit{Theoretical and Experimental Thermal Performance Analysis of Building Shell Components Containing Blown Fiberglass Insulation Enhanced with Phase Change Material (PCM)}. Proceedings of ASHRAE THERM XII, Clearwater, FL. 
+
+Spitler, J., J. Cullin, M. Bernier, M. Kummert, P. Cui, X. Liu, E. Lee, and D. Fisher. 2009. \textit{Preliminary intermodel comparison of ground heat exchanger simulation models}. Proceedings of 11th International Conference on Thermal Energy Storage; Effstock 2009, Stockholm, Sweden.
+
+Cremaschi, L.,and E. Lee. 2008. \textit{Design and Heat Transfer Analysis of a New Psychrometric Environmental Chamber for Heat Pump and Refrigeration Systems Testing}. ASHRAE Transactions 114(2):619-631.
+\end{spacing}
+}
+
+%%----------------------------------------------------------------------------------------
+%%	REFERENCES SECTION
+%%----------------------------------------------------------------------------------------
+%\section{\centerline{\helv{REFERENCES}}} 
+%\vspace{-5pt} % Reduce space between section title and contents
+%
+%\begin{center}
+%	\begin{tabular}{|r|l|c|l|}
+%		\toprule
+%		Name & Profession & Known Since & Phone \\
+%		\midrule
+%		Dr. Daniel Fisher & Professor, Oklahoma State University & 2005 & 405-744-5900 \\
+%		\midrule
+%		Dr. Sankar Padhmanabhan & Simulation Specialist; Danfoss HX & 2006 & 433-255-9874 \\
+%		\bottomrule
+%	\end{tabular}
+%\end{center}
+
+\clearpage
+
+{\Huge {Edwin Lee}} \hfill {Additional Information }
+\vspace{-0.25in}
+
+\hrulefill
+
+%----------------------------------------------------------------------------------------
+%	MEMBERSHIPS SECTION
+%----------------------------------------------------------------------------------------
+\section{\centerline{\helv{MEMBERSHIPS}}} 
+\sectionRule
+\vspace{-20pt} % Gap between title and text
+
+\begin{center}
+American Society of Heating, Refrigerating, and Air-Conditioning Engineers\\ 
+Student Member 2005-2013; Student Branch President 2007-2012; Member 2013-Present
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	HONORS SECTION
+%----------------------------------------------------------------------------------------
+\section{\centerline{\helv{HONORS}}} 
+\sectionRule
+\vspace{-20pt} % Reduce space between section title and contents
+
+\begin{center}
+Phi Kappa Phi Honor Society \dotfill Superior Scholarship \\
+A. B. Still Memorial Scholarship \dotfill Performance in Mechanical Engineering \\
+Two-time ASHRAE Memorial Scholarship \dotfill Performance and Research Interests \\
+Conoco-Phillips Memorial Scholarship \dotfill Performance in Graduate Studies \\
+Central Oklahoma ASHRAE Chapter Graduate Fellowship \dotfill Performance in Graduate Studies
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	Programming Project Examples
+%----------------------------------------------------------------------------------------
+\section{\centerline{\helv{SPECIFIC PROJECT EXAMPLES}}} 
+\sectionRule
+\vspace{-8pt} % Reduce space between section title and contents
+
+\paragraph{EnergyPlus Focus} A graphical tool to improve work-flow during development of EnergyPlus
+\vspace{3pt}
+\begin{itemize}
+	\item Ability to modify reporting frequency/contents to any idf without opening the file
+	\item Test suite tool to provide specific testing of particular file types and configurations
+	\item Parametric tool using the EPMacro preprocessor, allows a generic number of parameters
+	\item Direct access to calculate a mathematical difference summary of two EnergyPlus output files
+	\item An IDF analyzer that compares directories of IDFs
+	\item Ability to run an EnergyPlus simulation on any input file with a single click using a compiled EnergyPlus library
+\end{itemize}
+\vspace{-8pt}
+\paragraph{Plant Parameter Estimation} A tool to regress manufacturer's data into EnergyPlus inputs
+\vspace{3pt}
+\begin{itemize}
+	\item Ability to paste in tabulated and correction factor data
+	\item Creates a graphical report showing the resulting parameter quality
+	\item Modular code allows for easy extension for new model types
+	\item Multithreaded code allows the graphical interface to run while background operations perform the curve fit or parameter estimation
+\end{itemize}
+\vspace{-8pt}
+\paragraph{Buried Pipe Heat Transfer Tool} A graphical tool for performing buried pipe simulations
+\vspace{3pt}
+\begin{itemize}
+	\item Formal XML input/output program structure 
+	\item Utilizes the same model that is implemented in EnergyPlus for buried pipe simulations
+	\item Graphical mesh display and temperature/thermal property distribution
+\end{itemize}
+\vspace{-8pt}
+\paragraph{Data Acquisition} A graphical Python application for monitoring data acquisition
+\vspace{3pt}
+\begin{itemize}
+	\item Monitors data acquisition from a serial/USB port RS-232 device
+	\item Records raw data signals, converts to an analog, and processes into physical measurements where applicable
+	\item Running graphs on-screen show each measurement status
+	\item Implemented on a Linux machine, portable to other operating systems
+\end{itemize}
+\vspace{-8pt}
+\paragraph{IDD/IDF Library} Multi-language library for accessing/manipulating idd and idf files
+\vspace{3pt}
+\begin{itemize}
+	\item VB.Net based library parses IDD and IDF with extensive error handling
+	\item VB.Net application includes GUI and file comparison tools
+	\item Python cross platform library is lightweight, simple, with minimal error handling
+	\item Python application allows quick processing of well-formed idfs including multiple file comparisons
+\end{itemize}
+
+\end{resume} 
+\end{document}
