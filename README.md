@@ -1,2 +1,2 @@
 # cv
-My (LaTeX) CV
+My (Jekyll) CV
