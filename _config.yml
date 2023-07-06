@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   I am a practicing mechanical engineer who just happens to spend most
   of his time writing Python and C++ code.  I am interested in all things
   building simulation related, and focused on using the best tools for the job at hand.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/cv" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: myoldmopar
 github_username: myoldmopar
