@@ -4,6 +4,12 @@ title: Publications
 permalink: /publications/
 ---
 
+{% comment %}
+Publications in process: 
+- The interactive indoor-outdoor building energy modeling for enhancing the predictions of urban microclimates and building energy demands, Building and Environment
+- Flexible integration of diverse HVAC technologies in EnergyPlus via Python-enabled workflow
+{% endcomment %}
+
 ## 2020s
 - Davies, Ryan; Mitchell, Matt; and Lee, Edwin (2023) _A High-Speed Portable Ground Heat Exchanger Model for Use in Various Energy Simulation Software_. Macalester Journal of Physics and Astronomy: Vol. 11: Iss. 1, Article 4.
 
