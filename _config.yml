@@ -17,7 +17,7 @@ title: Gibson Lee
 email: gibsonlee08@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   An aspiring aerospace engineer who has been in love with rocketry since a young age.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/resume" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: gsl4295
 
