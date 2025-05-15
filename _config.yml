@@ -23,10 +23,9 @@ github_username: gsl4295
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
 
 header_pages:
   - school.md
