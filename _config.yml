@@ -23,7 +23,7 @@ github_username: gsl4295
 
 # Build settings
 markdown: kramdown
-theme: abhinavs/moonwalk
+theme: daattali/beautiful-jekyll
 plugins:
   - jekyll-feed
 
