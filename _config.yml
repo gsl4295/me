@@ -23,7 +23,7 @@ github_username: gsl4295
 
 # Build settings
 markdown: kramdown
-theme: pages-themes/cayman
+theme: cayman
 plugins:
   - jekyll-feed
 
