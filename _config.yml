@@ -23,7 +23,7 @@ github_username: gsl4295
 
 # Build settings
 markdown: kramdown
-remote-theme: pages-themes/cayman
+remote_theme: pages-themes/cayman
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
