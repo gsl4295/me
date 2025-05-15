@@ -16,8 +16,9 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ site.title }}</h1>
+      <h1 class="project-name"><a href="https://gsl4295.github.io/Website">{{ site.title }}</a></h1>
       <h2 class="project-tagline">{{ site.description }}</h2>
+        <a href="https://gsl4295.github.io/Website/interests/" class="btn">Interests</a>
         <a href="https://gsl4295.github.io/Website/school/" class="btn">School</a>
     </header>
 
@@ -25,9 +26,10 @@
       {{ content }}
 
       <footer class="site-footer">
-          <h5>GitHub: <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></h5>
-          <h5>Instagram: <a href="{{ site.instagram }}">{{ site.ig_name }}</a></h5>
-          <h5>YouTube: <a href="{{ site.youtube }}">{{ site.yt_name }}</a></h5>
+          {{ site.email }}
+          GitHub: <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
+          Instagram: <a href="{{ site.instagram }}">{{ site.ig_name }}</a>
+          YouTube: <a href="{{ site.youtube }}">{{ site.yt_name }}</a>
       </footer>
     </main>
   </body>
