@@ -26,10 +26,12 @@
       {{ content }}
 
       <footer class="site-footer">
-          {{ site.email }}
-          GitHub: <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
-          Instagram: <a href="{{ site.instagram }}">{{ site.ig_name }}</a>
-          YouTube: <a href="{{ site.youtube }}">{{ site.yt_name }}</a>
+          <ul>
+            <li>{{ site.email }}</li>
+            <li>GitHub: <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></li>
+            <li>Instagram: <a href="{{ site.instagram }}">{{ site.ig_name }}</a></li>
+            <li>YouTube: <a href="{{ site.youtube }}">{{ site.yt_name }}</a></li>
+          </ul>
       </footer>
     </main>
   </body>
