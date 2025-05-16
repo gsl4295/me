@@ -16,16 +16,19 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name"><a href="https://gsl4295.github.io/Website">{{ site.title }}</a></h1>
+      <h1 class="project-name">{{ site.title }}</h1>
       <h2 class="project-tagline">{{ site.description }}</h2>
-        <a href="https://gsl4295.github.io/Website/interests/" class="btn">Interests</a>
-        <a href="https://gsl4295.github.io/Website/school/" class="btn">School</a>
+        <a href="https://gsl4295.github.io/me" class="btn">Homepage</a>
+        <a href="https://gsl4295.github.io/me/interests/" class="btn">Interests</a>
+        <a href="https://gsl4295.github.io/me/school/" class="btn">School</a>
+        <a href="https://gsl4295.github.io/me/resume/" class="btn">Resume</a>
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
 
       <footer class="site-footer">
+          <h3>{{ page.title }}</h3>
           <ul>
             <li>{{ site.email }}</li>
             <li>GitHub: <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></li>
