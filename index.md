@@ -6,8 +6,10 @@ layout: main
 title: Home
 ---
 
-Hello! My name is Gibson. This is a little website that I made with the help of [myoldmopar's repo](https://github.com/myoldmopar/cv/tree/gh-pages).<br>
-I'm generally fairly invested in learning about coding and computers, but I don't spend a ton of time on it.<br>
-Right now I'm planning to go to college at Oklahoma State University as you'll find in [my school page](https://gsl4295.github.io/Website/school).<br>
-My full resume (updated quite often!) is [here](https://gsl4295.github.io/me/resume)
-
+*Hello! My name is Gibson. This is a website that I made with the inspiration of [myoldmopar's repo](https://github.com/myoldmopar/cv/tree/gh-pages).<br>
+I'm fairly invested in learning about coding and computers, but [this isn't my whole life](https://gsl4295.github.io/me/interests)!<br>
+Right now I'm planning to go to college at Oklahoma State University - as you'll find in [my school page](https://gsl4295.github.io/me/school).<br>
+My full resume, which (right now) is mainly used for college applications, is [here](https://gsl4295.github.io/me/resume).*
+---
+This is a [jekyll-based](https://github.com/jekyll/jekyll) website, using the [Cayman](https://github.com/pages-themes/cayman) theme, built on [Github Pages](https://pages.github.com).<br>
+If I'm willing to pay for a domain someday (unlikely), this whole site will just redirect to that.
