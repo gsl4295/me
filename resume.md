@@ -41,7 +41,7 @@ permalink: /resume/
 - Marching and Concert Band
   - Grade 8
     - District S&E - MS Percussion Ensemble - I
-    - *Did not attend State because of the restrictions placed on Middle School competitors*
+    - *Middle Schoolers were not allowed to attend State*
   - Grade 9
     - District S&E - HS Percussion Ensemble - I
     - State S&E - HS Percussion Ensemble - II

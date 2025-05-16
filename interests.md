@@ -25,4 +25,4 @@ then occasionally I'll get on Rocket League or Trackmania to do some online stuf
 I've been paying decently close attention to the Starship program since SN5's 150m hop test back in 2020, along with the Demo-2 mission carrying Bob and Doug.
 Nowadays, I'm just praying that S35 doesn't die like its ancestors did.<br>
 I (along with [myoldmopar](https://github.com/myoldmopar)) launch my own small rockets.
-You can watch the very beginnings of this campaign, updated often on [my YouTube](https://youtube.com/@gibson-lee)
+You can watch the very beginnings of this campaign, updated often on [my YouTube](https://youtube.com/@gibson-lee).

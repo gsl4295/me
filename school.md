@@ -5,7 +5,6 @@ permalink: /school/
 ---
 
 *I'm a senior in high school right now and I'm planning some things for my future.<br>
-
 If you're here to see my achievements in school, try checking [my resume](https://gsl4295.github.io/me/resume)!*
 
 ### High School
