@@ -10,6 +10,6 @@ title: Home
 I'm fairly invested in learning about coding and computers, but [this isn't my whole life](https://gsl4295.github.io/me/interests)!<br>
 Right now I'm planning to go to college at Oklahoma State University - as you'll find in [my school page](https://gsl4295.github.io/me/school).<br>
 My full resume, which (right now) is mainly used for college applications, is [here](https://gsl4295.github.io/me/resume).*
----
+<br>---<br>
 This is a [jekyll-based](https://github.com/jekyll/jekyll) website, using the [Cayman](https://github.com/pages-themes/cayman) theme, built on [Github Pages](https://pages.github.com).<br>
 If I'm willing to pay for a domain someday (unlikely), this whole site will just redirect to that.
