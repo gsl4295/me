@@ -17,17 +17,15 @@
 
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ site.title }}</h1>
-      <h2 class="project-tagline">{{ site.subtitle }}</h2>
+      <h2 class="project-tagline">My own blog posts are located here.</h2>
         <a href="https://gsl4295.github.io/me" class="btn">Homepage</a>
-        <a href="https://gsl4295.github.io/me/interests/" class="btn">Interests</a>
-        <a href="https://gsl4295.github.io/me/school/" class="btn">School</a>
-        <a href="https://gsl4295.github.io/me/resume/" class="btn">Resume</a>
         <a href="https://gsl4295.github.io/me/posts/" class="btn">Posts</a>
     </header>
 
     <main id="content" class="main-content" role="main">
       <div style="text-align: center;">
           <h2><strong>{{ page.title }}</strong></h2>
+          <h3>{{ page.date }}</h3>
       </div>
       {{ content }}
 

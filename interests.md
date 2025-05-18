@@ -21,8 +21,12 @@ I kid you not, it hasn't faltered whatsoever. I don't know what magic I was usin
 Generally, I like video games, but nothing too crazy. I play pretty much nothing but single-player games like Minecraft and Celeste,
 then occasionally I'll get on Rocket League or Trackmania to do some online stuff.
 
-### Other
+### Rocketry
 I've been paying decently close attention to the Starship program since SN5's 150m hop test back in 2020, along with the Demo-2 mission carrying Bob and Doug.
 Nowadays, I'm just praying that S35 doesn't die like its ancestors did.<br>
 I (along with [myoldmopar](https://github.com/myoldmopar)) launch my own small rockets.
-You can watch the very beginnings of this campaign, updated often on [my YouTube](https://youtube.com/@gibson-lee).
+You can watch the very beginnings of this hobby of ours, updated often on [my YouTube](https://youtube.com/@gibson-lee).
+
+### Other
+I'm highly interested in learning a new language - Spanish was okay but I didn't have a great teacher... so I haven't retained anything.
+But after I 
