@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: post
 title: 1 Year To Go
 date: May 5, 2025
 tags:
