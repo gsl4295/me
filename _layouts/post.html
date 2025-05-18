@@ -25,16 +25,17 @@
     <main id="content" class="main-content" role="main">
       <div style="text-align: center;">
           <h2><strong>{{ page.title }}</strong> - {{ page.date | date: "%B %d, %Y" }}</h2>
-            {% if page.tags.size > 0 %}
-              {% for tag in page.tags %}
-                <h3>{{ tag }}</h3>
-                {% unless forloop.last %}, {% endunless %}
-              {% endfor %}
-            {% endif %}
       </div>
       {{ content }}
 
       <footer class="site-footer">
+          <h2>Tags</h2>
+          {% if page.tags.size > 0 %}
+            {% for tag in page.tags %}
+              {{ tag }}
+              {% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          {% endif %}
           <h2>Socials</h2>
           <ul>
             <li>{{ site.email }}</li>
