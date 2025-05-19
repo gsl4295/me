@@ -17,7 +17,7 @@
 
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ site.title }}</h1>
-      <h2 class="project-tagline">My own blog posts are located here.</h2>
+      <h2 class="project-tagline">A blog by an aspiring aerospace engineer.</h2>
         <a href="https://gsl4295.github.io/me" class="btn">Homepage</a>
         <a href="https://gsl4295.github.io/me/posts/" class="btn">Posts</a>
     </header>
@@ -32,7 +32,7 @@
           <h2>Tags</h2>
           {% if page.tags.size > 0 %}
             {% for tag in page.tags %}
-              {{ tag }}
+              <strong>{{ tag }}</strong>
               {% unless forloop.last %}, {% endunless %}
             {% endfor %}
           {% endif %}
@@ -42,6 +42,7 @@
             <li>GitHub: <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></li>
             <li>Instagram: <a href="{{ site.instagram }}">{{ site.ig_name }}</a></li>
             <li>YouTube: <a href="{{ site.youtube }}">{{ site.yt_name }}</a></li>
+            <li>Discord: {{ site.discord }}</li>
           </ul>
       </footer>
     </main>

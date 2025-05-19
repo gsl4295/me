@@ -23,10 +23,13 @@ then occasionally I'll get on Rocket League or Trackmania to do some online stuf
 
 ### Rocketry
 I've been paying decently close attention to the Starship program since SN5's 150m hop test back in 2020, along with the Demo-2 mission carrying Bob and Doug.
-Nowadays, I'm just praying that S35 doesn't die like its ancestors did.<br>
+Nowadays, I'm just praying that S35 doesn't die like its ancestors did. I hate harmonic resonance and fairings deploying on the ground.<br>
 I (along with [myoldmopar](https://github.com/myoldmopar)) launch my own small rockets.
 You can watch the very beginnings of this hobby of ours, updated often on [my YouTube](https://youtube.com/@gibson-lee).
 
 ### Other
-I'm highly interested in learning a new language - Spanish was okay but I didn't have a great teacher... so I haven't retained anything.
-But after I 
+I'm highly interested in learning a new language - Spanish was okay but I didn't have a great teacher during high school... so I haven't retained anything.
+But after I saw Gallaudet University and the comfortable culture surrounding it, I knew that **that's** what I wanted to learn.<br>
+I'm now going for a minor in American Sign Language along with my aerospace degree.<br>
+
+My favorite content creators (right now) are definitely DougDoug, CSI Starbase, and the Everyday Astronaut.
