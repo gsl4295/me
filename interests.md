@@ -24,7 +24,7 @@ then occasionally I'll get on Rocket League or Trackmania to do some online stuf
 ### Rocketry
 I've been paying decently close attention to the Starship program since SN5's 150m hop test back in 2020, along with the Demo-2 mission carrying Bob and Doug.
 Nowadays, I'm just praying that S35 doesn't die like its ancestors did. I hate harmonic resonance and fairings deploying on the ground.<br>
-I (along with [myoldmopar](https://github.com/myoldmopar)) launch my own small rockets.
+I (along with [myoldmopar](https://github.com/myoldmopar)) launch rockets in our backyard.
 You can watch the very beginnings of this hobby of ours, updated often on [my YouTube](https://youtube.com/@gibson-lee).
 
 ### Other

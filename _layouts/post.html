@@ -16,19 +16,19 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ site.title }}</h1>
-      <h2 class="project-tagline">A blog by an aspiring aerospace engineer.</h2>
+      <h1 class="project-name">{{ page.title }}</h1>
+      <h2 class="project-tagline">{{ page.date | date: "%B %d, %Y" }}</h2>
         <a href="https://gsl4295.github.io/me" class="btn">Homepage</a>
         <a href="https://gsl4295.github.io/me/posts/" class="btn">Posts</a>
     </header>
 
     <main id="content" class="main-content" role="main">
-      <div style="text-align: center;">
-          <h2><strong>{{ page.title }}</strong> - {{ page.date | date: "%B %d, %Y" }}</h2>
-      </div>
       {{ content }}
 
       <footer class="site-footer">
+          Post written by <a href="https://gsl4295.github.io/me">Gibson Lee</a>,<br>
+          hosted on GitHub Pages,
+          using the Cayman remote theme.
           <h2>Tags</h2>
           {% if page.tags.size > 0 %}
             {% for tag in page.tags %}
