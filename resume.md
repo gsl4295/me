@@ -37,7 +37,7 @@ permalink: /resume/
   - I will be serving as Chapter President after being the Secretary last year.
 - HS Esports Team
   - I founded my school's first-ever esports team, and I am currently the captain.
-  - I've also run the YouTube channel for the Esports team for about a year now.
+  - I've also run the YouTube channel for the Esports team for over a year now.
   - You can watch our matches, live or through a replay, [here](https://youtube.com/@CHS-Wildcats).
 - Marching and Concert Band
   - Awards
@@ -58,7 +58,7 @@ permalink: /resume/
     - Grade 11
       - OSSAA Marching - 3A - II
       - District Concert - III
-      - District S&E - HS Mallet Duet - II
+      - District S&E - [HS Mallet Duet](https://youtube.com/https://www.youtube.com/watch?v=pwYNXiK0-gs) - II
       - *Focused much more on mallet percussion*
 
 ### Statistics
