@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
   </head>
@@ -17,7 +18,7 @@
 
     <main id="content" class="main-content" role="main">
       <h1 class="project-name"><strong>{{ page.title }}</strong></h1>
-      <h2 class="project-tagline">{{ page.date | date: "%B %d, %Y" }} - by <a href="https://github.com/gsl4295">Gibson Lee</a></h2>
+        <h2 class="project-tagline">{{ page.date | date: "%B %d, %Y" }} - <em>last edited on {{ page.last_edited }})</em> by <a href="https://github.com/gsl4295">Gibson Lee</a></h2>
       {{ content }}
 
       <footer class="site-footer">
