@@ -14,8 +14,7 @@ Some highlights from the past two years or so:
 - Savored lifelong memories with friends in band
 - Helped my community in the school's NHS chapter and beyond
 
-I'm very excited for my senior year, as I will only be taking four classes! I will be able to enjoy a lot of free time,
-and with it, I'll probably be getting a job of some kind.
+I'm very excited for my senior year, as I will only be taking four high school classes! Unprecedented levels of free time.
 
 ### Concurrent
 I'm simultaneously taking a few college credits at a local community college while I do high school.

@@ -58,7 +58,7 @@ permalink: /resume/
     - Grade 11
       - OSSAA Marching - 3A - II
       - District Concert - III
-      - District S&E - [HS Mallet Duet](https://youtube.com/https://www.youtube.com/watch?v=pwYNXiK0-gs) - II
+      - District S&E - [HS Mallet Duet](https://www.youtube.com/watch?v=pwYNXiK0-gs) - II
       - *Focused much more on mallet percussion*
 
 ### Statistics
@@ -78,4 +78,4 @@ permalink: /resume/
 ## Non-Academic
 ### Personal Endeavors
 - I'm serious about learning more programming languages, as shown from this website and [my other projects](https://github.com/gsl4295).
-- I've also learned (as stated above) how to livestream an event. I run two YouTube channels for my school that have the ability to stream different events.
+- I've also learned (as stated above in the Esports section) how to livestream an event. I run two YouTube channels for my school that have the ability to stream different events.
