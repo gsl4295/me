@@ -27,8 +27,8 @@
           <h2>Tags</h2>
           {% if page.tags.size > 0 %}
             {% for tag in page.tags %}
-              <strong>{{ tag }}</strong>
-              {% unless forloop.last %}, {% endunless %}
+              <strong>{{ tag }},</strong>
+              {% unless forloop.last %}{% endunless %}
             {% endfor %}
           {% endif %}
           <h2>Return</h2>
