@@ -26,10 +26,11 @@
           <strong><em>Last edited on {{ page.last_edited }}.</em></strong>
           <h2>Tags</h2>
           {% if page.tags.size > 0 %}
+          <ul>
             {% for tag in page.tags %}
-              <strong>{{ tag }},</strong>
-              {% unless forloop.last %}{% endunless %}
+              <li>{{ tag }}</li>
             {% endfor %}
+          </ul>
           {% endif %}
           <h2>Return</h2>
           <a href="https://gsl4295.github.io/me">Homepage</a><br>
