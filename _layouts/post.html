@@ -12,13 +12,14 @@
     <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
+    <title>{{ page.title }}</title>
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <main id="content" class="main-content" role="main">
       <h1 class="project-name"><strong>{{ page.title }}</strong></h1>
-      <h2 class="project-tagline">{{ page.date | date: "%B %d, %Y" }} - by {{ page.writer }}</h2>
+      <h2 class="project-tagline">{{ page.date | date: "%B %d, %Y" }} - by {{ page.author }}</h2>
       <hr>
       {{ content }}
 
@@ -26,11 +27,9 @@
           <strong><em>Last edited on {{ page.last_edited }}.</em></strong>
           <h2>Tags</h2>
           {% if page.tags.size > 0 %}
-          <ul>
             {% for tag in page.tags %}
-              <li>{{ tag }}</li>
+              <a class="btn">{{ tag }}</a>
             {% endfor %}
-          </ul>
           {% endif %}
           <h2>Return</h2>
           <a href="https://gsl4295.github.io/me">Homepage</a><br>

@@ -3,7 +3,7 @@ layout: post
 title: Programming Projects
 date: June 11, 2025
 last_edited: June 29, 2025
-writer: Gibson
+author: Gibson
 tags:
   - Programming
   - First Post
