@@ -80,52 +80,51 @@
 
 
 .btn-cosmetic {
-  display: inline-block;
-  margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2rem;
-  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
-
-  &:hover {
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.3);
-  }
-
-  + .btn {
-    margin-left: 1rem;
-  }
-
-  @include large {
-    padding: 0.75rem 1rem;
-  }
-
-  @include medium {
-    padding: 0.6rem 0.9rem;
-    font-size: 0.9rem;
-  }
-
-  @include small {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
-    font-size: 0.9rem;
-
-    + .btn {
-      margin-top: 1rem;
-      margin-left: 0;
-    }
-  }
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #000;
+    background-color: #dba6ff;
+    border-color: rgba(255,255,255,0.2);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0.5rem;
+    transition: color 0.1s, background-color 0.5s, border-color 0.5s
 }
 
-.main-content h1,.main-content h2,.main-content h3,.main-content h4,.main-content h5,.main-content h6 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: normal;
-    color: #641599
+.btn-cosmetic:hover {
+    color: ##641599;
+    text-decoration: none;
+    background-color: rgb(0 0 0 / 50%);
+    border-color: rgba(255,255,255,0)
+}
+
+.btn-cosmetic+.btn-cosmetic {
+    margin-left: 0rem
+}
+
+@media screen and (min-width: 64em) {
+    .btn-cosmetic {
+        padding:0.75rem 1rem
+    }
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .btn-cosmetic {
+        padding:0.6rem 0.9rem;
+        font-size: 0.9rem
+    }
+}
+
+@media screen and (max-width: 42em) {
+    .btn-cosmetic {
+        display:inline-grid;
+        width: 45%;
+        padding: 0.75rem;
+        font-size: 0.8rem
+    }
+
+    .btn-cosmetic+.btn-cosmetic {
+        margin-top: 0rem;
+        margin-left: 0
+    }
 }

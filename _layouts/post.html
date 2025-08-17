@@ -25,13 +25,13 @@
 
       <footer class="site-footer">
           <strong><em>Last edited on {{ page.last_edited }}.</em></strong>
-          <h2>Tags</h2>
+          <h2><strong>Tags</strong></h2>
           {% if page.tags.size > 0 %}
             {% for tag in page.tags %}
               <a class="btn">{{ tag }}</a>
             {% endfor %}
           {% endif %}
-          <h2>Return</h2>
+          <h2><strong>Return</strong></h2>
           <a href="https://gsl4295.github.io/me">Homepage</a><br>
           <a href="https://gsl4295.github.io/me/posts/">All Posts</a>
       </footer>
