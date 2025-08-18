@@ -3,6 +3,19 @@
 
 @import "{{ site.theme }}";
 
+body {
+    background-color: #000000;
+}
+
+a {
+    color: #50b25f;
+    text-decoration: underline
+}
+
+a:hover {
+    text-decoration: none
+}
+
 .page-header {
     color: #ffffff;
     text-align: center;
@@ -34,6 +47,7 @@
     color: rgba(0,0,0,1);
     background-color: rgba(255,255,255,0.5);
     border-color: rgba(255,255,255,0.2);
+    text-decoration: none;
     border-style: solid;
     border-width: 2px;
     border-radius: 2rem;
@@ -77,7 +91,6 @@
         margin-left: 0;
     }
 }
-
 
 .btn-cosmetic {
     display: inline-block;
