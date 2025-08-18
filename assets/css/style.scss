@@ -4,6 +4,7 @@
 @import "{{ site.theme }}";
 
 body {
+    color: #8c9da5;
     background-color: #000000;
 }
 
@@ -97,6 +98,7 @@ a:hover {
     margin-bottom: 1rem;
     color: #000;
     background-color: #dba6ff;
+    text-decoration: none;
     border-color: rgba(255,255,255,0.2);
     border-style: solid;
     border-width: 2px;
@@ -106,7 +108,7 @@ a:hover {
 
 .btn-cosmetic:hover {
     color: #641599;
-    text-decoration: none;
+    text-decoration: underline;
     background-color: rgba(0,0,0,0.5);
     border-color: rgba(255,255,255,0)
 }
@@ -146,5 +148,5 @@ a:hover {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: #641599;
+    color: #FFFFFF;
 }
