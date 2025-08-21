@@ -11,19 +11,15 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
     <title>{{ page.title }}</title>
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    <header>
-        <div align="left">
-            <a href="https://gsl4295.github.io/me/" class="btn">Back to Home</a>
-        </div>
-        <div align="right">
-            <a href="https://gsl4295.github.io/me/posts/" class="btn">Back to Posts</a>
-        </div>
+    <header class="page-header" role="banner">
+        <h2>Back To: </h2>
+        <a href="https://gsl4295.github.io/me/" class="btn">Home</a>
+        <a href="https://gsl4295.github.io/me/posts/" class="btn">Posts</a>
     </header>
 
     <main id="content" class="main-content" role="main">
@@ -41,8 +37,8 @@
             {% endfor %}
           {% endif %}
           <h2><strong>Return</strong></h2>
-          <a href="https://gsl4295.github.io/me" class="btn-cosmetic">Home</a><br>
-          <a href="https://gsl4295.github.io/me/posts/" class="btn-cosmetic">All Posts</a>
+          <a href="https://gsl4295.github.io/me" class="btn-cosmetic"><strong>Home</strong></a><br>
+          <a href="https://gsl4295.github.io/me/posts/" class="btn-cosmetic"><strong>All Posts</strong></a>
       </footer>
     </main>
   </body>
