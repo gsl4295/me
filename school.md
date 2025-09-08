@@ -12,7 +12,6 @@ I've had a lot of fun lately in high school, but as every senior inevitably feel
 Some highlights from the past two years or so:
 - Won national awards and travelled the country with BPA
 - Savored lifelong memories with friends in band
-- Helped my community in the school's NHS chapter and beyond
 
 I'm very excited for my senior year, as I will only be taking four high school classes! Unprecedented levels of free time.
 

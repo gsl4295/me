@@ -5,6 +5,6 @@ permalink: /posts/
 ---
 
 {% for post in site.posts %}
-  <h3><a href="/me{{ post.url }}"><strong>{{ post.title }}</strong></a> by {{ post.author }} - {{ post.date | date: "%B %d, %Y" }}</h3>
+  <h3><a href="/me{{ post.url }}"><strong>{{ post.title }}</strong></a><em> by {{ post.author }}</em> - {{ post.date | date: "%B %d, %Y" }}</h3>
   <p class="date"></p>
 {% endfor %}
