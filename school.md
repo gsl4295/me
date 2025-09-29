@@ -9,11 +9,6 @@ If you're here to see my tangible achievements in school, go to [my resume](http
 
 ### High School
 I've had a lot of fun lately in high school, but as every senior inevitably feels, I'm ready to leave.
-Some highlights from the past two years or so:
-- Won national awards and travelled the country with BPA
-- Savored lifelong memories with friends in band
-
-I'm very excited for my senior year, as I will only be taking four high school classes! Unprecedented levels of free time.
 
 ### Concurrent
 I'm simultaneously taking a few college credits at a local community college while I do high school.
