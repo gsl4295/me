@@ -40,6 +40,6 @@ We've also gotten outrageously lucky that two Olympic disciplines (softball and 
 so we're going to try and see both of those.
 
 ### Other
-I'm highly interested in learning a new language. Spanish was okay, but I didn't have a great teacher during high school so I haven't retained anything.
+I've always been highly interested in learning a new language. Spanish was okay, but I didn't have a great teacher during high school so I haven't retained anything.
 But after I saw Gallaudet University's culture in Washington, D.C., I knew that **that's** what I wanted to learn.<br>
 I'm now going for a minor in American Sign Language along with my aerospace degree.<br>

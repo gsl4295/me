@@ -4,8 +4,8 @@ title: School
 permalink: /school/
 ---
 
-*I'm a senior in high school right now, and I'm planning for my future.<br>
-If you're here to see my tangible achievements in school, go to [my resume](https://gsl4295.github.io/me/resume).*
+*I'm a senior in high school right now. These are just short little descriptions, so
+if you're here to see EVERYTHING I've done in school, go to [my resume](https://gsl4295.github.io/me/resume).*
 
 ### High School
 I've had a lot of fun lately in high school, but as every senior inevitably feels, I'm ready to leave.

@@ -3,5 +3,4 @@ layout: main
 title: Home
 ---
 
-Hello. I'm Gibson, but more importantly, I'm also:
-- 
+Hi, my name's Gibson. This is a work in progress at the moment but please check everything out!
