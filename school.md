@@ -14,9 +14,6 @@ I've had a lot of fun lately in high school, but as every senior inevitably feel
 I'm simultaneously taking a few college credits at a local community college while I do high school.
 So far, I've taken out my two required history credits, and I'm going to get my Social Sciences dimension done too.
 
-### Undergraduate
+### University
 Starting in Fall 2026, I'm going to pursue Aerospace Engineering with a minor in American Sign Language.<br>
 *Find out "why aerospace? (or sign language?)" in [my interests page](https://gsl4295.github.io/me/interests).*
-
-### Graduate
-It's pretty likely that I'm going to pursue at least a master's degree in aerospace engineering.<br>

@@ -4,6 +4,9 @@ title: Resume
 permalink: /resume/
 ---
 
+This is mainly a site for me to update for my actual resume that I'll build occasionally, 
+but it also serves as an all-encompassing list of 'things' I've happened to do in the last few years. Enjoy!
+
 ## High School
 ### Extracurriculars
 - Business Professionals of America
@@ -17,7 +20,7 @@ permalink: /resume/
     - **President**
     - Campaign manager for State Executive Council candidate
     - State:
-      - 3rd place in Fundamentals of Spreadsheets
+      - Bronze medalist in Fundamentals of Spreadsheets
       - 4th place in Linux OS Fundamentals
       - Earned State Merit Scholar award
       - Earned Statesman torch pin
@@ -31,7 +34,7 @@ permalink: /resume/
     as well as using the Torch Points system to help my community more.
 - National Honor Society
   - 2 community service hours must be completed each semester to retain membership.
-  - Overall, I've completed 15 service hours, spread across a local church-owned food pantry and a homeless shelter in Oklahoma City.
+  - Overall, I've completed around 30 service hours, spread across a local church-owned food pantry and a homeless shelter in Oklahoma City.
   - It also requires a 3.75 weighted GPA, calculated every semester.
   - I am entering my third year in NHS starting in September.
   - I will be serving as Chapter President after being the Secretary last year.
@@ -64,13 +67,14 @@ permalink: /resume/
 ### Statistics
 - ACT: 35
 - PSAT: 1430
-- Weighted GPA: 4.05
+- Valedictorian
+- Weighted GPA: 4.10
 - Unweighted GPA: 4.0
 - College GPA: 4.0
 
 ### Awards
-- National Merit Scholar - High Scorer (waiting on next stage's results)
-- Oklahoma Regents Automatic Qualifier
+- National Merit Scholarship Semifinalist (waiting on next stage's results)
+- Oklahoma Rising Scholars - Automatic Qualifier
 - Oklahoma Honor Society recipient x3
 - Superintendents' Honor Roll x3
 - Leonard Bernstein Musicianship Award
